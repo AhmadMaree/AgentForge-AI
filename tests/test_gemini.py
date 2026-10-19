@@ -7,6 +7,7 @@ import pytest
 from agentforge.core.config import LLMConfig
 from agentforge.core.exceptions import LLMError
 from agentforge.core.message import Message
+from agentforge.agents.simple_agent import SimpleAgent
 from agentforge.llm.gemini import GeminiLLM
 
 
@@ -86,6 +87,24 @@ def test_system_message_mapping(llm):
     assert contents[0].role == "user"
 
 
+def test_agent_passes_current_message_to_gemini(llm, fake_client):
+    agent = SimpleAgent(
+        name="PythonTutor",
+        llm=llm,
+        system_prompt="You are a teacher.",
+    )
+
+    agent.run("Explain Python.")
+
+    request = fake_client.models.generate_content.call_args.kwargs
+    assert request["config"].system_instruction == "You are a teacher."
+    assert [
+        part.text
+        for content in request["contents"]
+        for part in content.parts
+    ] == ["Explain Python."]
+
+
 def test_assistant_role_mapping(llm):
     contents, _ = llm.prepare_request([
         Message(
@@ -115,6 +134,19 @@ def test_assistant_role_mapping(llm):
 def test_empty_messages(llm):
     with pytest.raises(ValueError):
         llm.invoke([])
+
+
+def test_system_only_messages_are_rejected(llm):
+    with pytest.raises(
+        ValueError,
+        match="A user or assistant message required",
+    ):
+        llm.prepare_request([
+            Message(
+                role="system",
+                content="You are a teacher.",
+            )
+        ])
 
 
 def test_tool_messages_not_supported_yet(llm):

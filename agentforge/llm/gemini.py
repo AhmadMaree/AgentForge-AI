@@ -37,7 +37,7 @@ class GeminiLLM(BaseLLM):
     def prepare_request(
         self,
         messages: Sequence[Message]
-    ) -> tuple[list[types.Content, types.GenerateContentConfig]]:
+    ) -> tuple[list[types.Content], types.GenerateContentConfig]:
         if not messages:
             raise ValueError("at least one message")
 
@@ -70,8 +70,8 @@ class GeminiLLM(BaseLLM):
                 )
             )
 
-            if not contents:
-                raise ValueError("A user or assistant message required")
+        if not contents:
+            raise ValueError("A user or assistant message required")
 
         generation_config = types.GenerateContentConfig(
             system_instruction=(
@@ -140,4 +140,3 @@ class GeminiLLM(BaseLLM):
                 f"Gemini streaming failed : {exc}"
             ) from exc
            
-
