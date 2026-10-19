@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentforge"
+version = "0.1.0"
+description = "A modular AI agent framework built from scratch"
+requires-python = ">=3.11"
+dependencies = [
+    "google-genai",
+    "pydantic>=2",
+    "python-dotenv",
+]
+
+[project.optional-dependencies]
+search = ["tavily-python"]
+dev = ["pytest", "pytest-asyncio", "ruff"]
+
+[tool.setuptools.packages.find]
+include = ["agentforge*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
