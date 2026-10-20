@@ -32,3 +32,4 @@ class Agent(ABC):
     @abstractmethod
     def run(self, input_text: str) -> str:
         """Excute agent task"""
+        ...

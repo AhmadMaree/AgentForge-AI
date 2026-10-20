@@ -12,7 +12,9 @@ class BaseLLM(ABC):
     @abstractmethod
     def invoke(self, messages: Sequence[Message]) -> str:
         """Generate a complete response """
+        ...
 
     @abstractmethod
     def stream(self, messages: Sequence[Message]) -> Iterator[str] :
         """Yelid response text incrementally."""
+        ...
