@@ -16,6 +16,10 @@ dependencies = [
 [project.optional-dependencies]
 search = ["tavily-python"]
 dev = ["pytest", "pytest-asyncio", "ruff"]
+memory = [
+    "qdrant-client>=1.12",
+    "sentence-transformers>=3.0",
+]
 
 [tool.setuptools.packages.find]
 include = ["agentforge*"]

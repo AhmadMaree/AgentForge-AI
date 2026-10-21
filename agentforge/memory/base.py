@@ -33,8 +33,8 @@ class ItemMemory(BaseModel):
     id: str = Field(
         default_factory=lambda: str(uuid.uuid4())
     )
-    user_id: str = Field(max_length=1)
-    content: str = Field(max_length=1)
+    user_id: str = Field(min_length=1)
+    content: str = Field(min_length=1)
     timestamp: datetime = Field(
         default_factory=utc_now
     )
