@@ -289,7 +289,7 @@ class ReActAgent(Agent):
 
                 result = ReActResult(
                     answer=answer,
-                    steps_used=steps_used,
+                    step_used=steps_used,
                     sources=sources,
                 )
 
@@ -377,4 +377,3 @@ class ReActAgent(Agent):
 
     def get_history(self) -> list[Message]:
         return self.history.get_messages()
-

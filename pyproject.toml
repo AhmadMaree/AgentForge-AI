@@ -19,6 +19,7 @@ dev = ["pytest", "pytest-asyncio", "ruff"]
 memory = [
     "qdrant-client>=1.12",
     "sentence-transformers>=3.0",
+    "neo4j>=5.0",
 ]
 
 [tool.setuptools.packages.find]

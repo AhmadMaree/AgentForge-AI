@@ -13,19 +13,25 @@ from agentforge.memory.types.episodic import (
     EpisodicMemory
 )
 
+from agentforge.memory.types.semantic import (
+    SemanticMemory,
+)
+
 class ManagerMemory:
 
     def __init__(
         self,
         user_id: str,
         config: MemoryConfig | None = None,
-        episodic: EpisodicMemory | None = None
+        episodic: EpisodicMemory | None = None,
+        semantic: SemanticMemory | None = None,
     ):
         if not user_id:
             raise ValueError("User id is required")
 
         if(
-            episodic is not None and episodic.user_id != user_id
+            (episodic is not None and episodic.user_id != user_id) or
+            (semantic is not None and semantic.user_id != user_id)
         ):
             raise ValueError("EpisodicMemory user_id mismatch")
         
@@ -43,6 +49,7 @@ class ManagerMemory:
         )
 
         self.episodic = episodic
+        self.semantic = semantic
 
     def add_memory(
         self,
@@ -53,7 +60,8 @@ class ManagerMemory:
     ) -> str:
         if memory_type not in (
             "working",
-            "episodic"
+            "episodic",
+            "semantic",
         ):
             raise ValueError("Unsupported memory type")
 
@@ -71,12 +79,20 @@ class ManagerMemory:
         if memory_type == "working":
             return self.workingMemory.add(item)
 
-        if self.episodic is None:
+        if memory_type == "episodic":
+
+            if self.episodic is None:
+                raise RuntimeError(
+                    "EpisodicMemory is not configured"
+                )
+            return self.episodic.add(item)
+
+        if self.semantic is None:
             raise RuntimeError(
-                "EpisodicMemory is not configured"
+                "SemanticMemory is not configured"
             )
 
-        return self.episodic.add(item)
+        return self.semantic.add(item)
 
     def retrieve_memories(
         self,
@@ -93,6 +109,7 @@ class ManagerMemory:
             None,
             "working",
             "episodic",
+            "semantic"
         ):
             raise ValueError(
                 "Unsupported memory type"
@@ -113,6 +130,16 @@ class ManagerMemory:
                 limit=limit
             ))
 
+        if(memory_type in (None, 'semantic')
+            and self.semantic is not None
+        ):
+            results.extend(
+                self.semantic.retrieve(
+                    query=query,
+                    limit=limit
+                )
+            )
+
         results.sort(
             key=lambda x: (
                 x.importance,
@@ -124,10 +151,13 @@ class ManagerMemory:
         return results[:limit]
 
     def remove_memories(self, memories_id: str) -> bool:
-        if self.workingMemory.remove(memory_id):
+        if self.workingMemory.remove(memories_id):
             return True
-        if self.episodic is not None:
-            return self.episodic.remove(memory_id)
+        if (self.episodic is not None and self.episodic.remove(memories_id)):
+            return self.episodic.remove(memories_id)
+
+        if self.semantic is not None:
+            return self.semantic.remove(memories_id)
         return False
         
     def clear(self) -> None:
