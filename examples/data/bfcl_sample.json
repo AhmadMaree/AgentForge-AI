@@ -1,0 +1,145 @@
+
+[
+  {
+    "id": "simple_001",
+    "category": "simple",
+    "question": "What's the weather in Beijing?",
+    "function": [
+      {
+        "name": "get_weather",
+        "description": "Get weather for a city",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "location": {
+              "type": "string"
+            }
+          },
+          "required": ["location"]
+        }
+      }
+    ],
+    "ground_truth": [
+      {
+        "name": "get_weather",
+        "arguments": {
+          "location": "Beijing"
+        }
+      }
+    ]
+  },
+  {
+    "id": "multiple_001",
+    "category": "multiple",
+    "question": "Get the weather in Paris and convert 10 USD to EUR.",
+    "function": [
+      {
+        "name": "get_weather",
+        "description": "Get city weather",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "location": {
+              "type": "string"
+            }
+          },
+          "required": ["location"]
+        }
+      },
+      {
+        "name": "convert_currency",
+        "description": "Convert currency",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "amount": {
+              "type": "number"
+            },
+            "from_currency": {
+              "type": "string"
+            },
+            "to_currency": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "amount",
+            "from_currency",
+            "to_currency"
+          ]
+        }
+      }
+    ],
+    "ground_truth": [
+      {
+        "name": "get_weather",
+        "arguments": {
+          "location": "Paris"
+        }
+      },
+      {
+        "name": "convert_currency",
+        "arguments": {
+          "amount": 10,
+          "from_currency": "USD",
+          "to_currency": "EUR"
+        }
+      }
+    ]
+  },
+  {
+    "id": "parallel_001",
+    "category": "parallel",
+    "question": "Get the weather in London and Tokyo.",
+    "function": [
+      {
+        "name": "get_weather",
+        "description": "Get city weather",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "location": {
+              "type": "string"
+            }
+          },
+          "required": ["location"]
+        }
+      }
+    ],
+    "ground_truth": [
+      {
+        "name": "get_weather",
+        "arguments": {
+          "location": "London"
+        }
+      },
+      {
+        "name": "get_weather",
+        "arguments": {
+          "location": "Tokyo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "irrelevance_001",
+    "category": "irrelevance",
+    "question": "Say hello to me.",
+    "function": [
+      {
+        "name": "get_weather",
+        "description": "Get city weather",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "location": {
+              "type": "string"
+            }
+          },
+          "required": ["location"]
+        }
+      }
+    ],
+    "ground_truth": []
+  }
+]

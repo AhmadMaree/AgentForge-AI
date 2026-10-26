@@ -1,0 +1,115 @@
+{
+  "total_samples": 4,
+  "correct_samples": 4,
+  "overall_accuracy": 1.0,
+  "category_accuracy": {
+    "irrelevance": 1.0,
+    "multiple": 1.0,
+    "parallel": 1.0,
+    "simple": 1.0
+  },
+  "results": [
+    {
+      "id": "simple_001",
+      "category": "simple",
+      "correct": true,
+      "prediction": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Beijing"
+          }
+        }
+      ],
+      "ground_truth": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Beijing"
+          }
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "multiple_001",
+      "category": "multiple",
+      "correct": true,
+      "prediction": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Paris"
+          }
+        },
+        {
+          "name": "convert_currency",
+          "arguments": {
+            "amount": 10,
+            "from_currency": "USD",
+            "to_currency": "EUR"
+          }
+        }
+      ],
+      "ground_truth": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Paris"
+          }
+        },
+        {
+          "name": "convert_currency",
+          "arguments": {
+            "amount": 10,
+            "from_currency": "USD",
+            "to_currency": "EUR"
+          }
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "parallel_001",
+      "category": "parallel",
+      "correct": true,
+      "prediction": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "London"
+          }
+        },
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Tokyo"
+          }
+        }
+      ],
+      "ground_truth": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "London"
+          }
+        },
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Tokyo"
+          }
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "irrelevance_001",
+      "category": "irrelevance",
+      "correct": true,
+      "prediction": [],
+      "ground_truth": [],
+      "error": null
+    }
+  ]
+}
