@@ -1,0 +1,177 @@
+{
+  "research_id": "e06e184ef5b84b94a633df292fa45ebb",
+  "research_topic": "What are the latest advances in AI agents?",
+  "status": "completed",
+  "todo_list": [
+    {
+      "id": 1,
+      "title": "Architectural Paradigms and Multi-Agent Collaboration",
+      "intent": "Investigate recent breakthroughs in agent architectures, reasoning frameworks like ReAct and Plan-and-Solve, and decentralized multi-agent collaboration protocols.",
+      "query": "latest advances in AI agent architectures multi agent collaboration frameworks 2026",
+      "status": "completed"
+    },
+    {
+      "id": 2,
+      "title": "Tool Use and Autonomous Workflow Execution",
+      "intent": "Examine how AI agents interact with external APIs, execute complex multi-step workflows, and handle web browsing or software engineering tasks autonomously.",
+      "query": "AI agents tool use API integration autonomous workflow execution advances",
+      "status": "completed"
+    },
+    {
+      "id": 3,
+      "title": "Evaluation, Safety, and Alignment of Autonomous Agents",
+      "intent": "Review current methodologies for benchmarking agent reliability, preventing hallucination cascades, and ensuring alignment in autonomous decision-making.",
+      "query": "AI agent evaluation benchmarks safety alignment hallucination prevention 2026",
+      "status": "completed"
+    }
+  ],
+  "results": [
+    {
+      "task": {
+        "id": 1,
+        "title": "Architectural Paradigms and Multi-Agent Collaboration",
+        "intent": "Investigate recent breakthroughs in agent architectures, reasoning frameworks like ReAct and Plan-and-Solve, and decentralized multi-agent collaboration protocols.",
+        "query": "latest advances in AI agent architectures multi agent collaboration frameworks 2026",
+        "status": "completed"
+      },
+      "sources": [
+        {
+          "title": "Multi-Agent Orchestration Guide (2026)",
+          "url": "https://theaiagentindex.com/resources/guides/multi-agent-orchestration",
+          "snippet": "Multi-agent orchestration: how it works in practice (2026) Multi-agent orchestration coordinates multiple AI agents to work together on a shared goal. Each agent handles a specific subtask, passes outputs to the next agent, and is managed by an orchestrator that sequences the work and handles failures.",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T13:32:48.971074Z"
+        },
+        {
+          "title": "Best Multi-Agent AI Frameworks in 2026 (Compared)",
+          "url": "https://www.multimodal.dev/post/best-multi-agent-ai-frameworks",
+          "snippet": "Compares the best multi-agent AI frameworks in 2026, including LangGraph, CrewAI and the Microsoft Agent Framework. Explains single versus multi-agent systems, how to choose and implement a framework, and how multi-agent systems work in financial services.",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T13:32:48.971111Z"
+        },
+        {
+          "title": "AI Agent Architecture 2026: Framework, Components & Enterprise Design ...",
+          "url": "https://koows.com/@Tech_article/ai-agent-architecture-(2026):-a-deep-research-guide-for-building-autonomous-ai-systems",
+          "snippet": "Explore AI Agent Architecture in 2026, including core components, design patterns, multi-agent systems, tools, and best practices for building scalable enterprise AI agents.",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T13:32:48.971128Z"
+        },
+        {
+          "title": "Complete Guide to AI Agents 2026: Frameworks, Architecture & Best ...",
+          "url": "https://the-agent-report.com/2026/05/complete-guide-to-ai-agents-2026/",
+          "snippet": "Master AI agents in 2026 with this definitive guide covering architectures, frameworks, design patterns, multi-agent systems, and production deployment",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T13:32:48.971171Z"
+        },
+        {
+          "title": "Agent Architectures 2026: 5 Patterns That Actually Work",
+          "url": "https://niteagent.com/blog/agent-architectures-2026/",
+          "snippet": "From ReAct loops to Multi-Agent swarms — which AI agent architecture patterns survive production? A practical guide to 5 essential design patterns in 2026 with real tradeoffs and code examples.",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T13:32:48.971184Z"
+        }
+      ],
+      "summary": "# Architectural Paradigms and Multi-Agent Collaboration: Research Summary\n\n## Introduction to Agent Architectures and Design Patterns\nRecent industry guides outline core architectural patterns that have transitioned into production environments, ranging from single-agent setups utilizing reasoning loops like ReAct to multi-agent swarms [5]. Enterprise implementations rely on defined frameworks to structure these architectures, ensuring components, tools, and scalable design patterns work cohesively [3, 4].\n\n## Reasoning Frameworks\nWhile specific algorithmic depths of frameworks like ReAct and Plan-and-Solve are targets of ongoing operational refinement, ReAct is highlighted as a fundamental architectural pattern used in production environments to guide agent behavior and interaction loops [5]. \n\n## Multi-Agent Collaboration and Orchestration Protocols\nMulti-agent orchestration coordinates multiple AI agents to collaboratively achieve a shared goal [1]. In these systems:\n* **Task Allocation:** Each agent is assigned a specific subtask and passes its outputs forward to subsequent agents [1].\n* **Management & Reliability:** An orchestrator manages the system by sequencing the workflow and handling failures [1].\n* **Ecosystem Frameworks:** Prominent frameworks utilized for building and choosing between single versus multi-agent systems include LangGraph, CrewAI, and the Microsoft Agent Framework [2]. These frameworks facilitate implementation across sectors such as financial services [2].\n\n## Missing Evidence and Disagreements\nThe provided evidence lacks granular technical comparisons regarding the internal algorithmic execution steps of Plan-and-Solve reasoning frameworks versus ReAct loops. Furthermore, details regarding decentralized peer-to-peer protocols (as opposed to centrally orchestrated multi-agent topologies) are not explicitly elaborated upon in the retrieved text.",
+      "error": null
+    },
+    {
+      "task": {
+        "id": 2,
+        "title": "Tool Use and Autonomous Workflow Execution",
+        "intent": "Examine how AI agents interact with external APIs, execute complex multi-step workflows, and handle web browsing or software engineering tasks autonomously.",
+        "query": "AI agents tool use API integration autonomous workflow execution advances",
+        "status": "completed"
+      },
+      "sources": [
+        {
+          "title": "AI Agents: Evolution, Architecture, and Real-World Applications",
+          "url": "https://arxiv.org/html/2503.12687v1",
+          "snippet": "The evolution of AI agents has been accelerated by recent breakthroughs in large language models (LLMs), which have provided a foundation for more sophisticated reasoning capabilities. Modern AI agents leverage these advanced language models as core components, augmenting them with specialized modules for memory, planning, tool use, and environmental interaction. This integration enables ...",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T13:33:03.995536Z"
+        },
+        {
+          "title": "APIs for AI Agents: The 5 Integration Patterns (2026 Guide)",
+          "url": "https://composio.dev/content/apis-ai-agents-integration-patterns",
+          "snippet": "APIs for AI agents: learn 5 integration patterns—tool calling, MCP gateways, unified APIs, and more—plus a decision matrix. Build reliably today.",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T13:33:03.995576Z"
+        },
+        {
+          "title": "AI Agentic workflows and Enterprise APIs: Adapting API architectures ...",
+          "url": "https://arxiv.org/pdf/2502.17443",
+          "snippet": "A. Understanding AI Agents and Agentic Workflows 1) AI Agents: Characteristics and Capabilities: AI agents are autonomous software entities designed to perceive their environment, process information, and execute actions to achieve specific objectives [4]. These agents operate using advanced machine learning models and algorithms, enabling them to function independently or collaboratively in ...",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T13:33:03.995594Z"
+        },
+        {
+          "title": "AI Agents and Workflow Automation Explained - tekrevol.com",
+          "url": "https://www.tekrevol.com/blogs/ai-agents-and-workflow-automation-explained/",
+          "snippet": "AI automation is changing businesses' workflow. How to integrate AI agents into your workflows and what the best tools are to get started.",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T13:33:03.995615Z"
+        },
+        {
+          "title": "Best AI Workflow Automation Tools to Use in 2026",
+          "url": "https://aiagentsdirectory.com/blog/best-ai-workflow-automation-tools-in-2026",
+          "snippet": "Compare the best AI workflow automation tools in 2026 for no-code workflows, AI agents, SaaS integrations, creative automation, self-hosting, and enterprise use.",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T13:33:03.995635Z"
+        }
+      ],
+      "summary": "# Tool Use and Autonomous Workflow Execution: Research Summary\n\n## Introduction to AI Agent Foundations and Tool Use\nModern AI agents leverage large language models (LLMs) as core components, enhanced with specialized modules for memory, planning, tool use, and environmental interaction [1]. These capabilities allow agents to function autonomously or collaboratively by perceiving their environment, processing information, and executing actions to achieve designated objectives [3].\n\n## External API Integration Patterns\nTo interact with external services, AI agents utilize specific API integration patterns [2]. Notable integration paradigms include:\n* **Tool Calling:** Direct invocation of tools by the agent [2].\n* **MCP Gateways:** Model Context Protocol gateways serving as an integration pattern [2].\n* **Unified APIs:** Standardized layers facilitating agent-to-service connectivity [2].\nA decision matrix is often employed to help developers choose and build reliable integrations [2].\n\n## Autonomous Workflow Execution and Automation\nAI automation is actively reshaping enterprise and business workflows [4]. Various workflow automation tools—supporting no-code configurations, SaaS integrations, creative automation, self-hosting, and enterprise-grade use—are available to implement these systems [5].\n\n## Missing Evidence and Disagreements\nWhile the retrieved evidence identifies API integration patterns (such as tool calling and MCP gateways) and acknowledges the role of tool use modules, it lacks specific technical details regarding how agents independently handle complex software engineering tasks or autonomous web browsing. Furthermore, no direct disagreements or contradictions are present in the provided sources.",
+      "error": null
+    },
+    {
+      "task": {
+        "id": 3,
+        "title": "Evaluation, Safety, and Alignment of Autonomous Agents",
+        "intent": "Review current methodologies for benchmarking agent reliability, preventing hallucination cascades, and ensuring alignment in autonomous decision-making.",
+        "query": "AI agent evaluation benchmarks safety alignment hallucination prevention 2026",
+        "status": "completed"
+      },
+      "sources": [
+        {
+          "title": "AI Safety Evaluation Benchmarks: HELM, HarmBench, TruthfulQA ...",
+          "url": "https://aisecurityandsafety.org/en/guides/ai-evaluation-benchmarks/",
+          "snippet": "Apr 3, 2026 · Evaluating AI safety requires rigorous benchmarks that test for harmful outputs, robustness to attacks, truthfulness, and bias. This guide covers the major evaluation benchmarks, when to use each, and how to build comprehensive evaluation suites for AI safety.",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T13:33:34.190994Z"
+        },
+        {
+          "title": "Taxonomy and Consistency Analysis of Safety Benchmarks for AI ...",
+          "url": "https://arxiv.org/html/2605.16282",
+          "snippet": "We catalog 40 behavioral agent-safety benchmarks (2023–2026), plus 5 adjacent evaluator, defense, and dataset artifacts, propose a six-axis taxonomy of benchmark evaluation methodology, and apply it across the corpus to characterize how methodological choices shape safety conclusions.",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T13:33:34.191007Z"
+        },
+        {
+          "title": "Security Evaluation Benchmark for AI Agents - ietf.org",
+          "url": "https://www.ietf.org/archive/id/draft-han-bmwg-agent-security-benchmark-00.html",
+          "snippet": "Jul 5, 2026 · This document defines a security evaluation benchmark framework for AI agents.",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T13:33:34.191013Z"
+        },
+        {
+          "title": "Taxonomy and Consistency Analysis of Safety Benchmarks for AI ...",
+          "url": "https://arxiv.org/pdf/2605.16282",
+          "snippet": "We catalog 40 behavioral agent-safety benchmarks (2023–2026), plus 5 adjacent evaluator, defense, and dataset artifacts, propose a six-axis taxonomy of benchmark evaluation methodology, and apply it across the corpus to characterize how methodological choices shape safety conclusions.",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T13:33:34.191017Z"
+        },
+        {
+          "title": "AI Agent Evaluation: Drift & Hallucination Guide (2026)",
+          "url": "https://www.humaineeti.ai/resources/agent-eval-drift-hallucination/",
+          "snippet": "Apr 15, 2026 · AI agent evaluation framework for production: ground truth datasets, LLM-as-a-Judge, drift detection, hallucination scoring, and the evaluation flywheel.",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T13:33:34.191022Z"
+        }
+      ],
+      "summary": "# Evaluation, Safety, and Alignment of Autonomous Agents: Research Summary\n\n## Benchmarking Methodologies and Frameworks\nEvaluating AI safety and agent reliability requires rigorous benchmarks designed to test for harmful outputs, truthfulness, bias, and attack robustness [1]. Major evaluation benchmarks include HELM, HarmBench, and TruthfulQA [1]. Additionally, specialized security evaluation benchmark frameworks have been established for AI agents [3]. \n\nRecent literature catalogs numerous behavioral agent-safety benchmarks and proposes a six-axis taxonomy of benchmark evaluation methodology to characterize how methodological choices influence safety conclusions [2, 4].\n\n## Reliability, Hallucination, and Drift Management\nFor production environments, AI agent evaluation frameworks incorporate several specialized techniques and components:\n* **Ground Truth Datasets:** Used to validate agent performance against known standards [5].\n* **LLM-as-a-Judge:** Employed for automated evaluation of agent responses [5].\n* **Drift Detection & Hallucination Scoring:** Designed to monitor performance degradation over time and measure hallucination rates within an evaluation flywheel [5].\n\n## Missing Evidence and Disagreements\nThe provided evidence does not detail specific empirical findings regarding how particular alignment algorithms or fine-tuning techniques prevent cascading errors during multi-step autonomous decision-making. Furthermore, no explicit disagreements or conflicting data points are present across the supplied sources.",
+      "error": null
+    }
+  ],
+  "final_report": "# Research Report: Latest Advances in AI Agents\n\n## Overview\nAI agents have advanced significantly, transitioning into robust production environments across single-agent and multi-agent designs. Modern systems utilize advanced reasoning loops, external API integrations, and structured multi-agent orchestration frameworks. Simultaneously, the industry relies on rigorous safety evaluation benchmarks, automated validation frameworks, and drift management practices to ensure reliability in autonomous decision-making.\n\n---\n\n## Detailed Findings\n\n### Architectural Paradigms and Multi-Agent Collaboration\nRecent industry developments have successfully transitioned core architectural patterns into production, ranging from single-agent setups using reasoning loops to multi-agent swarms [Agent Architectures 2026: 5 Patterns That Actually Work (https://niteagent.com/blog/agent-architectures-2026/)]. Enterprise deployments depend on defined frameworks to structure components, tools, and scalable design patterns [AI Agent Architecture 2026: Framework, Components & Enterprise Design ... (https://koows.com/@Tech_article/ai-agent-architecture-(2026):-a-deep-research-guide-for-building-autonomous-ai-systems), Complete Guide to AI Agents 2026: Frameworks, Architecture & Best ... (https://the-agent-report.com/2026/05/complete-guide-to-ai-agents-2026/)]. \n\n* **Reasoning Frameworks:** While operational refinement is ongoing, ReAct is widely recognized as a fundamental architectural pattern used in production environments to govern agent behavior and interaction loops [Agent Architectures 2026: 5 Patterns That Actually Work (https://niteagent.com/blog/agent-architectures-2026/)].\n* **Multi-Agent Orchestration:** Orchestration coordinates multiple AI agents to collaboratively achieve a shared goal [Multi-Agent Orchestration Guide (2026) (https://theaiagentindex.com/resources/guides/multi-agent-orchestration)]. \n  * *Task Allocation:* Agents are assigned specific subtasks and forward outputs to subsequent agents [Multi-Agent Orchestration Guide (2026) (https://theaiagentindex.com/resources/guides/multi-agent-orchestration)].\n  * *Management & Reliability:* An orchestrator sequences workflows and manages failure handling [Multi-Agent Orchestration Guide (2026) (https://theaiagentindex.com/resources/guides/multi-agent-orchestration)].\n  * *Ecosystem Frameworks:* Prominent tools for building single and multi-agent systems—such as LangGraph, CrewAI, and the Microsoft Agent Framework—facilitate implementations across sectors like financial services [Best Multi-Agent AI Frameworks in 2026 (Compared) (https://www.multimodal.dev/post/best-multi-agent-ai-frameworks)].\n\n### Tool Use and Autonomous Workflow Execution\nModern AI agents leverage large language models as core engines, augmented with dedicated modules for memory, planning, tool use, and environmental interaction [AI Agents: Evolution, Architecture, and Real-World Applications (https://arxiv.org/html/2503.12687v1)]. These capabilities allow agents to perceive environments, process information, and execute actions autonomously [AI Agentic workflows and Enterprise APIs: Adapting API architectures ... (https://arxiv.org/pdf/2502.17443)].\n\n* **External API Integration Patterns:** To interface with external services, agents adopt specific patterns:\n  * *Tool Calling:* Direct invocation of tools by the agent [APIs for AI Agents: The 5 Integration Patterns (2026 Guide) (https://composio.dev/content/apis-ai-agents-integration-patterns)].\n  * *MCP Gateways:* Model Context Protocol gateways acting as an integration pattern [APIs for AI Agents: The 5 Integration Patterns (2026 Guide) (https://composio.dev/content/apis-ai-agents-integration-patterns)].\n  * *Unified APIs:* Standardized layers for agent-to-service connectivity [APIs for AI Agents: The 5 Integration Patterns (2026 Guide) (https://composio.dev/content/apis-ai-agents-integration-patterns)].\n  * Developers frequently use decision matrices to choose and build reliable integrations [APIs for AI Agents: The 5 Integration Patterns (2026 Guide) (https://composio.dev/content/apis-ai-agents-integration-patterns)].\n* **Workflow Automation:** AI automation is actively reshaping business workflows [AI Agents and Workflow Automation Explained - tekrevol.com (https://www.tekrevol.com/blogs/ai-agents-and-workflow-automation-explained/)], utilizing automation tools that support no-code configurations, SaaS integrations, creative automation, self-hosting, and enterprise-grade use [Best AI Workflow Automation Tools to Use in 2026 (https://aiagentsdirectory.com/blog/best-ai-workflow-automation-tools-in-2026)].\n\n### Evaluation, Safety, and Alignment of Autonomous Agents\nAssessing agent reliability and safety requires benchmarks designed to measure truthfulness, bias, attack robustness, and harmful outputs [AI Safety Evaluation Benchmarks: HELM, HarmBench, TruthfulQA ... (https://aisecurityandsafety.org/en/guides/ai-evaluation-benchmarks/)]. \n\n* **Evaluation Benchmarks & Taxonomies:** Major benchmarks include HELM, HarmBench, and TruthfulQA [AI Safety Evaluation Benchmarks: HELM, HarmBench, TruthfulQA ... (https://aisecurityandsafety.org/en/guides/ai-evaluation-benchmarks/)], alongside specialized security evaluation benchmark frameworks for AI agents [Security Evaluation Benchmark for AI Agents - ietf.org (https://www.ietf.org/archive/id/draft-han-bmwg-agent-security-benchmark-00.html)]. Recent studies catalog behavioral safety benchmarks and introduce a six-axis taxonomy to analyze how methodological choices affect safety findings [Taxonomy and Consistency Analysis of Safety Benchmarks for AI ... (https://arxiv.org/html/2605.16282), Taxonomy and Consistency Analysis of Safety Benchmarks for AI ... (https://arxiv.org/pdf/2605.16282)].\n* **Production Reliability & Drift Management:** Production deployment evaluation frameworks incorporate specific techniques:\n  * *Ground Truth Datasets:* Validate agent performance against known standards [AI Agent Evaluation: Drift & Hallucination Guide (2026) (https://www.humaineeti.ai/resources/agent-eval-drift-hallucination/)].\n  * *LLM-as-a-Judge:* Automates the evaluation of agent outputs [AI Agent Evaluation: Drift & Hallucination Guide (2026) (https://www.humaineeti.ai/resources/agent-eval-drift-hallucination/)].\n  * *Drift Detection & Hallucination Scoring:* Monitor performance degradation and measure hallucination rates within an evaluation flywheel [AI Agent Evaluation: Drift & Hallucination Guide (2026) (https://www.humaineeti.ai/resources/agent-eval-drift-hallucination/)].\n\n---\n\n## Limitations and Uncertainties\nThe provided research notes contain several gaps:\n* **Architectural Comparisons:** Granular technical comparisons regarding the internal algorithmic execution steps of Plan-and-Solve frameworks versus ReAct loops are absent. Furthermore, decentralized peer-to-peer collaboration protocols (in contrast to centrally orchestrated multi-agent topologies) are not detailed.\n* **Complex Autonomous Execution:** While tool use and generic workflow automation are noted, the evidence lacks technical specifics regarding how agents independently execute complex software engineering tasks or autonomous web browsing.\n* **Alignment Mechanics:** Specific empirical findings concerning how particular alignment algorithms or fine-tuning techniques prevent cascading errors during multi-step autonomous decisions are omitted.\n\n---\n\n## Conclusion\nRecent advances demonstrate that AI agents have moved firmly into practical enterprise utility through defined single-agent reasoning structures, multi-agent orchestration platforms (such as LangGraph, CrewAI, and Microsoft Agent Framework), and standardized API integration layers like tool calling and MCP gateways. To maintain dependability, production environments leverage automated evaluation flywheels, LLM-as-a-Judge setups, and safety benchmarks. Future advances will likely depend on resolving current uncertainties surrounding peer-to-peer multi-agent decentralization, software engineering autonomy, and precise error-prevention alignment techniques.\n\n## Retrieved References\n\n[1] Multi-Agent Orchestration Guide (2026) - https://theaiagentindex.com/resources/guides/multi-agent-orchestration\n[2] Best Multi-Agent AI Frameworks in 2026 (Compared) - https://www.multimodal.dev/post/best-multi-agent-ai-frameworks\n[3] AI Agent Architecture 2026: Framework, Components & Enterprise Design ... - https://koows.com/@Tech_article/ai-agent-architecture-(2026):-a-deep-research-guide-for-building-autonomous-ai-systems\n[4] Complete Guide to AI Agents 2026: Frameworks, Architecture & Best ... - https://the-agent-report.com/2026/05/complete-guide-to-ai-agents-2026/\n[5] Agent Architectures 2026: 5 Patterns That Actually Work - https://niteagent.com/blog/agent-architectures-2026/\n[6] AI Agents: Evolution, Architecture, and Real-World Applications - https://arxiv.org/html/2503.12687v1\n[7] APIs for AI Agents: The 5 Integration Patterns (2026 Guide) - https://composio.dev/content/apis-ai-agents-integration-patterns\n[8] AI Agentic workflows and Enterprise APIs: Adapting API architectures ... - https://arxiv.org/pdf/2502.17443\n[9] AI Agents and Workflow Automation Explained - tekrevol.com - https://www.tekrevol.com/blogs/ai-agents-and-workflow-automation-explained/\n[10] Best AI Workflow Automation Tools to Use in 2026 - https://aiagentsdirectory.com/blog/best-ai-workflow-automation-tools-in-2026\n[11] AI Safety Evaluation Benchmarks: HELM, HarmBench, TruthfulQA ... - https://aisecurityandsafety.org/en/guides/ai-evaluation-benchmarks/\n[12] Taxonomy and Consistency Analysis of Safety Benchmarks for AI ... - https://arxiv.org/html/2605.16282\n[13] Security Evaluation Benchmark for AI Agents - ietf.org - https://www.ietf.org/archive/id/draft-han-bmwg-agent-security-benchmark-00.html\n[14] Taxonomy and Consistency Analysis of Safety Benchmarks for AI ... - https://arxiv.org/pdf/2605.16282\n[15] AI Agent Evaluation: Drift & Hallucination Guide (2026) - https://www.humaineeti.ai/resources/agent-eval-drift-hallucination/",
+  "error": null,
+  "created_at": "2026-10-28T13:32:37.107004Z"
+}

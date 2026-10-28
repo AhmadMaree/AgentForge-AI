@@ -4,6 +4,7 @@ python-dotenv
 pydantic
 httpx
 tavily-python
+ddgs
 pytest
 pytest-asyncio
 ruff
