@@ -1,0 +1,177 @@
+{
+  "research_id": "4888069c3e9f46289ec91372a6b8f9f8",
+  "research_topic": "Compare LangChain, CrewAI, and AutoGen for building multi-agent applications.",
+  "status": "completed",
+  "todo_list": [
+    {
+      "id": 1,
+      "title": "Architecture and Design Philosophy Comparison",
+      "intent": "Analyze the core architectural differences, abstraction levels, and design patterns used by LangChain, CrewAI, and AutoGen for multi-agent systems.",
+      "query": "LangChain vs CrewAI vs AutoGen architecture multi-agent design patterns comparison",
+      "status": "completed"
+    },
+    {
+      "id": 2,
+      "title": "Execution, Control Flow, and Communication Mechanisms",
+      "intent": "Examine how each framework handles agent orchestration, conversation patterns, task delegation, and inter-agent communication.",
+      "query": "CrewAI AutoGen LangChain orchestration communication multi-agent workflow execution",
+      "status": "completed"
+    },
+    {
+      "id": 3,
+      "title": "Developer Ecosystem, Integration, and Production Readiness",
+      "intent": "Evaluate the ecosystem maturity, third-party tool integrations, debugging capabilities, and production deployment considerations for all three frameworks.",
+      "query": "LangChain CrewAI AutoGen production readiness ecosystem debugging tool integration",
+      "status": "completed"
+    }
+  ],
+  "results": [
+    {
+      "task": {
+        "id": 1,
+        "title": "Architecture and Design Philosophy Comparison",
+        "intent": "Analyze the core architectural differences, abstraction levels, and design patterns used by LangChain, CrewAI, and AutoGen for multi-agent systems.",
+        "query": "LangChain vs CrewAI vs AutoGen architecture multi-agent design patterns comparison",
+        "status": "completed"
+      },
+      "sources": [
+        {
+          "title": "LangChain vs CrewAI vs AutoGen 2026 | AgDex",
+          "url": "https://agdex.ai/blog/langchain-vs-crewai-vs-autogen",
+          "snippet": "LangChain vs CrewAI vs AutoGen 2026: which multi-agent framework should you use? Features, performance, community, and real-world use cases compared in depth.",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T15:36:12.307013Z"
+        },
+        {
+          "title": "LLM Agent Frameworks: LangChain vs CrewAI vs AutoGen - A 2026 Comparison",
+          "url": "https://dasroot.net/posts/2026/04/llm-agent-frameworks-langchain-crewai-autogen-comparison/",
+          "snippet": "A 2026 comparison of LangChain, CrewAI, and AutoGen for building LLM agent frameworks, covering architecture, performance, features, and ideal use cases for enterprise, startups, and research.",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T15:36:12.307038Z"
+        },
+        {
+          "title": "LangChain vs LlamaIndex vs CrewAI vs AutoGen (2026) | AI/TLDR",
+          "url": "https://ai-tldr.dev/learn/agent-frameworks/choosing-a-framework/agent-framework-comparison/",
+          "snippet": "LEARN / Agent SDKs & Frameworks / Choosing a Framework / Framework Comparison LangChain vs LlamaIndex vs CrewAI vs AutoGen Cut through the hype with a practical comparison of the four most-referenced agent frameworks — so you pick the one that fits your problem, not just the most-starred one.",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T15:36:12.307054Z"
+        },
+        {
+          "title": "AI Agent Frameworks Comparison: 2026 Guide — NeuraPulse",
+          "url": "https://neuraplus-ai.github.io/blog/ai-agent-frameworks-comparison-2026.html",
+          "snippet": "Compare top AI agent frameworks in 2026. Evaluate LangChain, CrewAI, AutoGen & Assistants API for your enterprise stack.",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T15:36:12.307064Z"
+        },
+        {
+          "title": "Multi-Agent Framework Architecture: LangChain vs CrewAI vs AutoGen ...",
+          "url": "https://www.agentically.sh/blog/article/multi-agent-framework-architecture-langchain-vs-crewai-vs-autogen-design-patterns/",
+          "snippet": "Multi-agent framework architecture comparison: LangChain vs CrewAI vs AutoGen. Learn coordination patterns, design principles, and performance characteristics for optimal selection.",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T15:36:12.307072Z"
+        }
+      ],
+      "summary": "Based on the provided search evidence, here is a concise research summary comparing the architecture and design philosophy of LangChain, CrewAI, and AutoGen for multi-agent systems.\n\n### Summary of Frameworks\n\nThe retrieved evidence highlights LangChain, CrewAI, and AutoGen as the primary frameworks evaluated for multi-agent systems, enterprise stacks, startups, and research [1, 2, 4]. They differ in their architectural approaches, coordination patterns, and design principles [5].\n\n* **LangChain:** Frequently referenced alongside the others as a foundational framework for building LLM applications and agent architectures [1, 2, 3]. \n* **CrewAI:** Positioned as a prominent framework for multi-agent orchestration, often compared for its specific feature sets, performance, and community adoption [1, 2, 3].\n* **AutoGen:** Evaluated as a key multi-agent framework utilized across enterprise, startup, and research use cases [2, 4].\n\n### Disagreements and Missing Evidence\nWhile the provided snippets introduce the frameworks and establish that they differ in terms of \"core architectural differences, abstraction levels, and design patterns\" [5], **the retrieved text does not contain the specific technical details** regarding *how* their internal architectures, abstraction levels, or specific design patterns operate. Therefore, a granular technical breakdown cannot be completed using only the supplied text without speculating beyond the evidence.",
+      "error": null
+    },
+    {
+      "task": {
+        "id": 2,
+        "title": "Execution, Control Flow, and Communication Mechanisms",
+        "intent": "Examine how each framework handles agent orchestration, conversation patterns, task delegation, and inter-agent communication.",
+        "query": "CrewAI AutoGen LangChain orchestration communication multi-agent workflow execution",
+        "status": "completed"
+      },
+      "sources": [
+        {
+          "title": "Agentic AI infra playbook - AI agent architecture guide",
+          "url": "https://www.bing.com/aclick?ld=e8DPJfcm2YC6FSZn1xF1EoPDVUCUwWNQkKTuAXF8nVpbgxClVGWnuk4msD-x3SxGPTZmhbKjJ-NNRJvNjCf47l7It-gr0ARC25an-lVlDdNR-dGJpq3FXSbC7z8j6Ry1CWsL_nk9mwTfg37PM0LD53HNzktZWIejM9kIA-qegv6OpjarGwzBjTpYFNJKa2k3NfauIbCtsUcee3GQsvdueJBglo-HU&u=aHR0cHMlM2ElMmYlMmZyZWRpcy5pbyUyZmd1aWRlcyUyZmNvbnRleHQtYXJjaGl0ZWN0dXJlLWZvci1wcm9kdWN0aW9uLWFpLWFnZW50cyUyZiUzZnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZHNlYXJjaC1ub25icmFuZC1oYW5kLXJhaXNlci1hbWVyJTI2dXRtX2NvbnRlbnQlM2RuYi1hc3NldC1jb250ZXh0LWFyY2hpdGVjdHVyZS1hbWVyLXJzYTElMjZ1dG1fY2FtcGFpZ24lM2QlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY29udGVudCUzZCUyNnV0bV90ZXJtJTNkJTI2ZGV2aWNlJTNkYyUyNm1hdGNodHlwZSUzZHAlMjZoc3RrX2NyZWF0aXZlJTNkJTI2aHN0a19jYW1wYWlnbiUzZDU4MTYyMTU3MyUyNmhzdGtfbmV0d29yayUzZGdvb2dsZUFkcyUyNm1zY2xraWQlM2RiOTdmOTZiMWIzM2UxNDg1MTNhM2ZjNTNhNTQ1OGQ4MA&rlid=b97f96b1b33e148513a3fc53a5458d80",
+          "snippet": "Serve your agents fresh data at Redis speed. Get the context architecture playbook. Plan agent context retrieval, memory and data pipelines against a production reference. AWS, Azure & GCP Ready · Full-Text Search Built In · AI Agent Memory Layer · NoSQL at Scale",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T15:36:28.243849Z"
+        },
+        {
+          "title": "Multi-Agent Orchestration — LangGraph, AutoGen & CrewAI ...",
+          "url": "https://www.aiagent.org/tutorials/multiagent/",
+          "snippet": "Deep-dive tutorial on multi-agent orchestration. Compare LangGraph, AutoGen, and CrewAI. Learn state management, routing, memory, tool use, and human-in-the-loop patterns.",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T15:36:28.243861Z"
+        },
+        {
+          "title": "Multi-Agent Orchestration: CrewAI, AutoGen, and LangGraph ...",
+          "url": "https://aidailynews.org/article/multi-agent-orchestration-patterns/",
+          "snippet": "Three frameworks have emerged as the leading choices: CrewAI, Microsoft's AutoGen, and LangGraph. Each embodies a different philosophy about agent coordination, and understanding those differences is essential before committing your architecture. This is not a feature comparison table.",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T15:36:28.243866Z"
+        },
+        {
+          "title": "LangChain vs CrewAI for multi-agent workflows",
+          "url": "https://www.scalekit.com/blog/langchain-vs-crewai-multi-agent-workflows",
+          "snippet": "Nov 24, 2025 · Both LangChain and CrewAI convert a user’s query into structured insights, but their orchestration philosophies differ: LangChain favors explicit loops and message passing, while CrewAI uses declarative task-based flows.",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T15:36:28.243871Z"
+        },
+        {
+          "title": "Agent Orchestration Frameworks — LangChain, AutoGen, CrewAI ...",
+          "url": "https://hub.stabilarity.com/agent-orchestration-frameworks-langchain-autogen-crewai-compared/",
+          "snippet": "Mar 19, 2026 · LangChain/LangGraph, Microsoft AutoGen, and CrewAI each represent a distinct philosophy: graph-based control flow, conversational multi-agent loops, and role-based crew coordination respectively.",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T15:36:28.243876Z"
+        }
+      ],
+      "summary": "Based on the provided search evidence, here is a concise research summary regarding execution, control flow, and communication mechanisms for multi-agent frameworks.\n\n### Summary of Execution, Control Flow, and Communication\n\nThe frameworks analyzed for multi-agent orchestration—LangChain (often associated with LangGraph), Microsoft AutoGen, and CrewAI—each employ distinct philosophies and mechanisms for agent coordination, task delegation, and control flow [3, 5]:\n\n* **LangChain / LangGraph:** Favors explicit loops, message passing [4], and graph-based control flows [5]. Tutorials and multi-agent orchestration deep dives for this ecosystem focus on state management, routing, memory, tool use, and human-in-the-loop patterns [2].\n* **CrewAI:** Utilizes declarative task-based flows [4] and role-based crew coordination [5]. It structures multi-agent workflows around distinct roles and coordinated tasks.\n* **AutoGen:** Built around conversational multi-agent loops [5] and multi-agent orchestration patterns [2]. \n\n### Disagreements and Missing Evidence\n* **Disagreements / Overlaps:** The evidence generally aligns on the core orchestration philosophies of each framework (graph-based, conversational loops, and role-based/declarative flows), though LangChain is occasionally referred to directly or via its graph-oriented extension, LangGraph [3, 5]. \n* **Missing Evidence:** While the snippets mention topics like state management, routing, memory, and tool use [2], the supplied text **does not contain granular technical details** explaining the exact underlying protocols or code-level mechanics of how inter-agent communication, delegation, and message routing are executed within each specific framework. Therefore, a deeper architectural comparison of their messaging protocols cannot be derived solely from the provided text.",
+      "error": null
+    },
+    {
+      "task": {
+        "id": 3,
+        "title": "Developer Ecosystem, Integration, and Production Readiness",
+        "intent": "Evaluate the ecosystem maturity, third-party tool integrations, debugging capabilities, and production deployment considerations for all three frameworks.",
+        "query": "LangChain CrewAI AutoGen production readiness ecosystem debugging tool integration",
+        "status": "completed"
+      },
+      "sources": [
+        {
+          "title": "LangChain vs CrewAI vs AutoGen | Pharos Production",
+          "url": "https://pharosproduction.com/insights/engineering/langchain-vs-crewai-vs-autogen/",
+          "snippet": "Many production systems use LangChain for individual agent logic and tool management while using CrewAI or a custom orchestrator to coordinate multiple agents. This hybrid approach gives you the best of both ecosystems.",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T15:36:44.691415Z"
+        },
+        {
+          "title": "LangChain vs CrewAI vs AutoGen 2026 | AgDex",
+          "url": "https://agdex.ai/blog/langchain-vs-crewai-vs-autogen",
+          "snippet": "LangChain vs CrewAI vs AutoGen: which AI agent framework wins in 2026? Architecture, ease of use, ecosystem and real-world performance compared.",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T15:36:44.691442Z"
+        },
+        {
+          "title": "LangChain vs LlamaIndex vs CrewAI vs AutoGen (2026) | AI/TLDR",
+          "url": "https://ai-tldr.dev/learn/agent-frameworks/choosing-a-framework/agent-framework-comparison/",
+          "snippet": "LangChain vs LlamaIndex vs CrewAI vs AutoGen: compare use case fit, abstraction level, ecosystem, and production readiness to pick the right agent framework.",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T15:36:44.691457Z"
+        },
+        {
+          "title": "LangChain vs AutoGen vs CrewAI: AI Agent Framework Comparison 2025",
+          "url": "https://splashstudio.org/blog/langchain-vs-autogen-vs-crewai-ai-agent-framework-comparison",
+          "snippet": "The AI agent framework landscape is evolving fast. Three tools dominate enterprise conversations in 2025: LangChain, AutoGen, and CrewAI. Each has a distinct philosophy, and choosing the wrong one can cost weeks of re-architecture. LangChain — The Flexible Foundation Best for: Complex pipelines, RAG systems, custom tool integrations. LangChain is the most mature and widely adopted framework ...",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T15:36:44.691469Z"
+        },
+        {
+          "title": "LangChain vs CrewAI vs AutoGen: Agent Frameworks | Pillai",
+          "url": "https://pillaiinfotech.com/article/ai-agent-frameworks-comparison",
+          "snippet": "Compare LangChain, CrewAI, AutoGen, and Anthropic tool-use for building AI agents. Real benchmarks, code examples, and our production recommendations.",
+          "backend": "duckduckgo",
+          "retrieved_at": "2026-10-28T15:36:44.691482Z"
+        }
+      ],
+      "summary": "Based on the provided search evidence, here is a concise research summary regarding the developer ecosystem, integration, and production readiness of LangChain, CrewAI, and AutoGen.\n\n### Summary of Ecosystem, Integration, and Production Readiness\n\nThe three frameworks dominate enterprise discussions and are widely evaluated for real-world performance, ecosystem maturity, and production readiness [1, 2, 3, 4]:\n\n* **LangChain:** Described as the most mature and widely adopted framework [4]. It is recognized as a flexible foundation best suited for complex pipelines, RAG (Retrieval-Augmented Generation) systems, and custom tool integrations [4]. In production systems, LangChain is frequently utilized for individual agent logic and tool management, sometimes paired with CrewAI or a custom orchestrator in a hybrid approach to handle multi-agent coordination [1].\n* **CrewAI & AutoGen:** Alongside LangChain, these frameworks form the core set of tools evaluated for enterprise stacks, startups, and real-world production use cases [1, 2, 3, 4]. CrewAI is noted as capable of being used alongside LangChain's tool management layer in hybrid production architectures [1].\n\n### Disagreements and Missing Evidence\n* **Disagreements / Overlaps:** The sources generally agree on LangChain's high maturity and widespread adoption for individual agent logic and tools [1, 4], but they do not explicitly contrast the production readiness, deployment overhead, or debugging capabilities of CrewAI and AutoGen against each other.\n* **Missing Evidence:** The supplied evidence does not provide specific metrics or technical details regarding debugging tools, monitoring integrations, latency performance, or concrete deployment steps for CrewAI and AutoGen in enterprise production environments.",
+      "error": null
+    }
+  ],
+  "final_report": "# Comparative Research Report: LangChain, CrewAI, and AutoGen for Multi-Agent Applications\n\n## Overview\nLangChain, CrewAI, and AutoGen are primary frameworks evaluated for building multi-agent systems, powering enterprise stacks, startups, and research use cases [LangChain vs CrewAI vs AutoGen 2026 | AgDex, LLM Agent Frameworks: LangChain vs CrewAI vs AutoGen - A 2026 Comparison, AI Agent Frameworks Comparison: 2026 Guide — NeuraPulse]. While these frameworks differ fundamentally in their coordination patterns, control flows, and abstraction levels, they also share certain complementary applications in hybrid production architectures [Multi-Agent Framework Architecture: LangChain vs CrewAI vs AutoGen ..., LangChain vs CrewAI vs AutoGen | Pharos Production].\n\n---\n\n## Detailed Findings\n\n### Architecture and Design Philosophy\n* **LangChain:** Frequently referenced as a foundational framework for building Large Language Model (LLM) applications and agent architectures [LangChain vs CrewAI vs AutoGen 2026 | AgDex, LLM Agent Frameworks: LangChain vs CrewAI vs AutoGen - A 2026 Comparison, LangChain vs LlamaIndex vs CrewAI vs AutoGen (2026) | AI/TLDR].\n* **CrewAI:** Positioned as a prominent framework built specifically for multi-agent orchestration, widely compared for its specific feature sets, performance, and community adoption [LangChain vs CrewAI vs AutoGen 2026 | AgDex, LLM Agent Frameworks: LangChain vs CrewAI vs AutoGen - A 2026 Comparison, LangChain vs LlamaIndex vs CrewAI vs AutoGen (2026) | AI/TLDR].\n* **AutoGen:** Evaluated as a key multi-agent framework utilized extensively across enterprise, startup, and research applications [LLM Agent Frameworks: LangChain vs CrewAI vs AutoGen - A 2026 Comparison, AI Agent Frameworks Comparison: 2026 Guide — NeuraPulse].\n\n### Execution, Control Flow, and Communication Mechanisms\nThe frameworks deploy distinct philosophies and mechanisms for agent coordination, task delegation, and control flow:\n* **LangChain (and LangGraph):** Favors explicit loops, message passing [LangChain vs CrewAI for multi-agent workflows], and graph-based control flows [Multi-Agent Framework Architecture: LangChain vs CrewAI vs AutoGen ...]. Ecosystem deep dives and tutorials focus heavily on state management, routing, memory, tool use, and human-in-the-loop interaction patterns [LLM Agent Frameworks: LangChain vs CrewAI vs AutoGen - A 2026 Comparison].\n* **CrewAI:** Relies on declarative task-based flows [LangChain vs CrewAI for multi-agent workflows] and role-based crew coordination [Multi-Agent Framework Architecture: LangChain vs CrewAI vs AutoGen ...], structuring workflows around distinct roles and coordinated tasks.\n* **AutoGen:** Implements conversational multi-agent loops and orchestration patterns [Multi-Agent Framework Architecture: LangChain vs CrewAI vs AutoGen ..., LLM Agent Frameworks: LangChain vs CrewAI vs AutoGen - A 2026 Comparison].\n\n### Developer Ecosystem, Integration, and Production Readiness\n* **LangChain:** Recognized as the most mature and widely adopted framework [LangChain vs AutoGen vs CrewAI: AI Agent Framework Comparison 2025]. It provides a flexible foundation suited for complex pipelines, Retrieval-Augmented Generation (RAG) systems, and custom tool integrations [LangChain vs AutoGen vs CrewAI: AI Agent Framework Comparison 2025]. In production systems, LangChain is frequently applied for individual agent logic and tool management—sometimes coupled in a hybrid configuration with CrewAI or custom orchestrators to manage multi-agent coordination [LangChain vs CrewAI vs AutoGen | Pharos Production].\n* **CrewAI and AutoGen:** Alongside LangChain, these frameworks comprise the core tools evaluated for real-world enterprise production environments [LangChain vs CrewAI vs AutoGen | Pharos Production, LLM Agent Frameworks: LangChain vs CrewAI vs AutoGen - A 2026 Comparison, LangChain vs LlamaIndex vs CrewAI vs AutoGen (2026) | AI/TLDR, LangChain vs AutoGen vs CrewAI: AI Agent Framework Comparison 2025]. CrewAI is noted as being flexible enough to integrate with LangChain's tool management layer in hybrid production models [LangChain vs CrewAI vs AutoGen | Pharos Production].\n\n---\n\n## Limitations and Uncertainties\n* **Granular Technical Mechanics:** While the sources confirm that the frameworks differ in internal architectures, abstraction levels, and design patterns, the evidence lacks specific technical details regarding *how* these underlying elements operate [Multi-Agent Framework Architecture: LangChain vs CrewAI vs AutoGen ...]. \n* **Messaging Protocols:** Specific code-level mechanics, underlying communication protocols, and message-routing implementations are not detailed in the available text.\n* **Production Metrics:** The evidence lacks specific metrics, deployment steps, monitoring integrations, latency measurements, or direct debugging comparisons between CrewAI and AutoGen. Sources generally agree on LangChain's broader maturity for individual tools and agent logic [LangChain vs CrewAI vs AutoGen | Pharos Production, LangChain vs AutoGen vs CrewAI: AI Agent Framework Comparison 2025], but direct comparative metrics for enterprise production readiness between CrewAI and AutoGen are absent.\n\n---\n\n## Conclusion\nLangChain, CrewAI, and AutoGen offer diverse strategies for multi-agent development. LangChain excels as a mature, flexible foundation for individual agent logic, RAG pipelines, and tool management (often via graph-oriented extensions like LangGraph) [Multi-Agent Framework Architecture: LangChain vs CrewAI vs AutoGen ..., LLM Agent Frameworks: LangChain vs CrewAI vs AutoGen - A 2026 Comparison, LangChain vs AutoGen vs CrewAI: AI Agent Framework Comparison 2025]. CrewAI emphasizes role-based coordination and declarative task flows [Multi-Agent Framework Architecture: LangChain vs CrewAI vs AutoGen ..., LangChain vs CrewAI for multi-agent workflows], whereas AutoGen is built around conversational multi-agent loops [Multi-Agent Framework Architecture: LangChain vs CrewAI vs AutoGen ...]. Because these frameworks offer complementary strengths, development teams occasionally leverage hybrid strategies—such as combining LangChain's tool layer with CrewAI's orchestration capabilities [LangChain vs CrewAI vs AutoGen | Pharos Production].\n\n## Retrieved References\n\n[1] LangChain vs CrewAI vs AutoGen 2026 | AgDex - https://agdex.ai/blog/langchain-vs-crewai-vs-autogen\n[2] LLM Agent Frameworks: LangChain vs CrewAI vs AutoGen - A 2026 Comparison - https://dasroot.net/posts/2026/04/llm-agent-frameworks-langchain-crewai-autogen-comparison/\n[3] LangChain vs LlamaIndex vs CrewAI vs AutoGen (2026) | AI/TLDR - https://ai-tldr.dev/learn/agent-frameworks/choosing-a-framework/agent-framework-comparison/\n[4] AI Agent Frameworks Comparison: 2026 Guide — NeuraPulse - https://neuraplus-ai.github.io/blog/ai-agent-frameworks-comparison-2026.html\n[5] Multi-Agent Framework Architecture: LangChain vs CrewAI vs AutoGen ... - https://www.agentically.sh/blog/article/multi-agent-framework-architecture-langchain-vs-crewai-vs-autogen-design-patterns/\n[6] Agentic AI infra playbook - AI agent architecture guide - https://www.bing.com/aclick?ld=e8DPJfcm2YC6FSZn1xF1EoPDVUCUwWNQkKTuAXF8nVpbgxClVGWnuk4msD-x3SxGPTZmhbKjJ-NNRJvNjCf47l7It-gr0ARC25an-lVlDdNR-dGJpq3FXSbC7z8j6Ry1CWsL_nk9mwTfg37PM0LD53HNzktZWIejM9kIA-qegv6OpjarGwzBjTpYFNJKa2k3NfauIbCtsUcee3GQsvdueJBglo-HU&u=aHR0cHMlM2ElMmYlMmZyZWRpcy5pbyUyZmd1aWRlcyUyZmNvbnRleHQtYXJjaGl0ZWN0dXJlLWZvci1wcm9kdWN0aW9uLWFpLWFnZW50cyUyZiUzZnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZHNlYXJjaC1ub25icmFuZC1oYW5kLXJhaXNlci1hbWVyJTI2dXRtX2NvbnRlbnQlM2RuYi1hc3NldC1jb250ZXh0LWFyY2hpdGVjdHVyZS1hbWVyLXJzYTElMjZ1dG1fY2FtcGFpZ24lM2QlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY29udGVudCUzZCUyNnV0bV90ZXJtJTNkJTI2ZGV2aWNlJTNkYyUyNm1hdGNodHlwZSUzZHAlMjZoc3RrX2NyZWF0aXZlJTNkJTI2aHN0a19jYW1wYWlnbiUzZDU4MTYyMTU3MyUyNmhzdGtfbmV0d29yayUzZGdvb2dsZUFkcyUyNm1zY2xraWQlM2RiOTdmOTZiMWIzM2UxNDg1MTNhM2ZjNTNhNTQ1OGQ4MA&rlid=b97f96b1b33e148513a3fc53a5458d80\n[7] Multi-Agent Orchestration — LangGraph, AutoGen & CrewAI ... - https://www.aiagent.org/tutorials/multiagent/\n[8] Multi-Agent Orchestration: CrewAI, AutoGen, and LangGraph ... - https://aidailynews.org/article/multi-agent-orchestration-patterns/\n[9] LangChain vs CrewAI for multi-agent workflows - https://www.scalekit.com/blog/langchain-vs-crewai-multi-agent-workflows\n[10] Agent Orchestration Frameworks — LangChain, AutoGen, CrewAI ... - https://hub.stabilarity.com/agent-orchestration-frameworks-langchain-autogen-crewai-compared/\n[11] LangChain vs CrewAI vs AutoGen | Pharos Production - https://pharosproduction.com/insights/engineering/langchain-vs-crewai-vs-autogen/\n[12] LangChain vs CrewAI vs AutoGen 2026 | AgDex - https://agdex.ai/blog/langchain-vs-crewai-vs-autogen\n[13] LangChain vs LlamaIndex vs CrewAI vs AutoGen (2026) | AI/TLDR - https://ai-tldr.dev/learn/agent-frameworks/choosing-a-framework/agent-framework-comparison/\n[14] LangChain vs AutoGen vs CrewAI: AI Agent Framework Comparison 2025 - https://splashstudio.org/blog/langchain-vs-autogen-vs-crewai-ai-agent-framework-comparison\n[15] LangChain vs CrewAI vs AutoGen: Agent Frameworks | Pillai - https://pillaiinfotech.com/article/ai-agent-frameworks-comparison",
+  "error": null,
+  "created_at": "2026-10-28T15:35:57.840129Z"
+}
